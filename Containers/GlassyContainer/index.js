@@ -59,7 +59,8 @@ const GlassyContainer = ({ children }) => {
           );
           width: 100%;
           height: 100vh;
-          border: 1.2em solid ${LightBlue.rgba(0.2)};
+          border: 1em solid rgb(243 243 243 / 80%);
+          box-shadow: inset 0em 0em 2.2em #292929d4;
         }
 
         .circles {
