@@ -18,14 +18,14 @@ const Logo = () => {
         <style jsx>{
           `
             #logoIcon {
-              max-width: 6.5em;
-              margin: 3em 3em;
+              max-width: 5em;
+  margin: 1.5em 3em;
             }
 
             .inner_circle {
-              rgb(245,245,245/ 70%);
-              stroke: rgb(255 255 255);
-              stroke-width: 0.3em;
+              stroke: rgb(111 167 148);
+            stroke-width: 1em;
+            fill: #65ff88;
             }
 
             .outer_circle {
@@ -35,9 +35,9 @@ const Logo = () => {
             }
 
             .arrow_overlay {
-              fill: rgb(116 134 113 / 0%);
-          stroke: #5f5d5d;
-          stroke-width: 0.6em;
+              fill: rgb(0 0 0 / 75%);
+          stroke: #e0e0e0;
+          stroke-width: 0em;
             }
 
           `

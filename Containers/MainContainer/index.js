@@ -32,23 +32,23 @@ const MainContainer = ({ children }) => {
     <style jsx>{
       `
       .box {
-        box-shadow: 1em -1em 1em -1em ${BlueTwo.rgba(0.75)},
-                    -0.25em 0.25em 2em -1em ${BlueOne.rgba(0.35)},
-                    -0.25em 0.25em 2em -1em ${DarkGreen.rgba(0.75)},
-                    inset -0.25em 0.25em 2em -1em ${BlueOne.rgba(0.75)},
-                    inset -0.25em 0.25em 2em -1em ${GreenFive.rgba(0.3)},
-                    inset 0.5em -0.5em 1.5em 0.5em ${BlueTwo.rgba(0.3)};
         height: -webkit-fill-available;
-        width: -webkit-fill-available;
-        max-width: 75vw;
-        max-height: 65vh;
-        margin: auto auto;
-        background: rgba(235,255,245,0.8);
-        border-radius: 0.35em;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+      width: -webkit-fill-available;
+      max-width: 80vw;
+      max-height: 65vh;
+      margin: auto auto;
+      background: rgb(201 222 202 / 82%);
+      border-radius: 0em 22em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%,-50%);
+      mix-blend-mode: color-dodge;
+      -webkit-filter: drop-shadow(0em 1em 2em #3B3B3B) blur(0px);
+      -webkit-filter: drop-shadow(0em 1em 2em #3B3B3B) blur(0px);
+      filter: drop-shadow(1em 1em 0.2em #3B3B3B) brightness(1) saturate(1) contrast(1) brightness(0.8);
+      border: 4px solid white;
+      box-shadow: inset 4px 5px 1px 1.5em;
       }
       `
     }</style>
