@@ -1,0 +1,29 @@
+{
+  "name": "with-carbon-components",
+  "version": "0.0.1",
+  "description": "An example of Nextjs setup with carbon-components-react from IBM",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV='development' next dev",
+    "build": "next build",
+    "start": "NODE_ENV='production' next start"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@carbon/icons-react": "latest",
+    "carbon-components": "latest",
+    "carbon-components-react": "latest",
+    "carbon-icons": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-is": "latest",
+    "sass": "latest",
+    "styled-components": "latest",
+    "styled-jsx": "latest",
+    "styled-jsx-plugin-sass": "latest"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "latest"
+  }
+}

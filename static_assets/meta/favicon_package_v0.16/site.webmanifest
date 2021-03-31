@@ -1,0 +1,20 @@
+{
+    "name": "PrecisionRxPro",
+    "short_name": "PrecisionRxPro",
+    "icons": [
+        {
+            "src": "/favicons/android-chrome-192x192.png?v=PYAGwkWKJP",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicons/android-chrome-256x256.png?v=PYAGwkWKJP",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "https://PrecisionRxPro.com",
+    "display": "standalone"
+}
